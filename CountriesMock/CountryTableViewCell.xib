@@ -17,13 +17,13 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="&quot;name&quot;, &quot;region&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEK-nE-0Er">
-                        <rect key="frame" x="20" y="20" width="224" height="21"/>
+                        <rect key="frame" x="20" y="20" width="233" height="21"/>
                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;code&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="REY-Yu-HEl">
-                        <rect key="frame" x="252" y="20" width="48" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="REY-Yu-HEl">
+                        <rect key="frame" x="274" y="20" width="26" height="21"/>
                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -40,8 +40,8 @@
                     <constraint firstItem="XEK-nE-0Er" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" symbolic="YES" id="5VZ-Mp-8In"/>
                     <constraint firstItem="f0x-Dh-6M7" firstAttribute="top" secondItem="REY-Yu-HEl" secondAttribute="bottom" constant="8" symbolic="YES" id="DEz-5z-MsV"/>
                     <constraint firstAttribute="bottom" secondItem="f0x-Dh-6M7" secondAttribute="bottom" constant="20" symbolic="YES" id="O14-B4-7tD"/>
-                    <constraint firstItem="XEK-nE-0Er" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.7" id="P0F-OH-qer"/>
-                    <constraint firstItem="REY-Yu-HEl" firstAttribute="leading" secondItem="XEK-nE-0Er" secondAttribute="trailing" constant="8" symbolic="YES" id="PxI-nt-oGH"/>
+                    <constraint firstItem="XEK-nE-0Er" firstAttribute="width" secondItem="REY-Yu-HEl" secondAttribute="width" multiplier="6" constant="77" id="P0F-OH-qer"/>
+                    <constraint firstItem="REY-Yu-HEl" firstAttribute="leading" secondItem="XEK-nE-0Er" secondAttribute="trailing" constant="21" id="PxI-nt-oGH"/>
                     <constraint firstItem="REY-Yu-HEl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" symbolic="YES" id="So5-iV-CxU"/>
                     <constraint firstItem="f0x-Dh-6M7" firstAttribute="top" secondItem="XEK-nE-0Er" secondAttribute="bottom" constant="8" symbolic="YES" id="cWT-fG-bKG"/>
                     <constraint firstAttribute="trailing" secondItem="REY-Yu-HEl" secondAttribute="trailing" constant="20" symbolic="YES" id="j7S-fv-waQ"/>
@@ -55,7 +55,7 @@
                 <outlet property="code" destination="REY-Yu-HEl" id="av0-2U-bSO"/>
                 <outlet property="name" destination="XEK-nE-0Er" id="XJb-Bc-8hM"/>
             </connections>
-            <point key="canvasLocation" x="138.93129770992365" y="-0.35211267605633806"/>
+            <point key="canvasLocation" x="138.80597014925371" y="-1.0297482837528604"/>
         </tableViewCell>
     </objects>
 </document>
